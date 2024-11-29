@@ -3,10 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Web Page</title>
+    <title>English Teacher's Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to My English Web Page</h1>
-    <p>This is a simple page to showcase resources for English teachers.</p>
+    <header>
+        <h1>Welcome to My Teaching Page</h1>
+        <p>Resources, quizzes, and tools for English teachers</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#quiz">Quiz</a>
+            <a href="#resources">Resources</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm an English teacher passionate about helping students improve their language skills through interactive activities and engaging resources.</p>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz">
+            <h2>Take a Quick Quiz</h2>
+            <form>
+                <div>
+                    <label for="q1">1. What is the plural of "mouse"?</label><br>
+                    <input type="text" id="q1" name="q1" placeholder="Type your answer">
+                </div>
+                <div>
+                    <label for="q2">2. Select the correct spelling:</label><br>
+                    <select id="q2" name="q2">
+                        <option value="recieve">Recieve</option>
+                        <option value="receive">Receive</option>
+                        <option value="receeve">Receeve</option>
+                    </select>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources">
+            <h2>Teaching Resources</h2>
+            <ul>
+                <li><a href="https://www.britishcouncil.org/teach" target="_blank">British Council</a></li>
+                <li><a href="https://www.cambridgeenglish.org/teaching-english" target="_blank">Cambridge English</a></li>
+            </ul>
+            <img src="https://via.placeholder.com/200" alt="Sample Resource">
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 English Teacher's Page</p>
+    </footer>
 </body>
 </html>
