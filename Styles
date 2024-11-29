@@ -128,3 +128,5 @@ footer {
     margin-top: 30px;
     font-size: 14px;
 }
+{% include css/bootstrap.min.css %}
+{% include css/main.css %}
