@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>English Teacher's Page</title>
+    <title>Fun English Teacher Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Teaching Page</h1>
-        <p>Resources, quizzes, and tools for English teachers</p>
+        <h1>Welcome to My Fun Teaching Page</h1>
+        <p>Interactive quizzes, vibrant resources, and contact information</p>
         <nav>
-            <a href="#about">About</a>
             <a href="#quiz">Quiz</a>
             <a href="#resources">Resources</a>
             <a href="#contact">Contact</a>
@@ -19,65 +18,51 @@
     </header>
 
     <main>
-        <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm an English teacher passionate about helping students improve their language skills through interactive activities and engaging resources.</p>
-        </section>
-
-        <!-- Quiz Section -->
         <section id="quiz">
-            <h2>Take a Quick Quiz</h2>
+            <h2>Take a Fun Quiz</h2>
             <form>
-                <div>
-                    <label for="q1">1. What is the plural of "mouse"?</label><br>
-                    <input type="text" id="q1" name="q1" placeholder="Type your answer">
-                </div>
-                <div>
-                    <label for="q2">2. Select the correct spelling:</label><br>
-                    <select id="q2" name="q2">
-                        <option value="recieve">Recieve</option>
-                        <option value="receive">Receive</option>
-                        <option value="receeve">Receeve</option>
-                    </select>
-                </div>
+                <label for="q1">1. What is the plural of "child"?</label>
+                <input type="text" id="q1" name="q1" placeholder="Type your answer">
+                
+                <label for="q2">2. Select the correct spelling:</label>
+                <select id="q2" name="q2">
+                    <option value="definately">Definately</option>
+                    <option value="definitely">Definitely</option>
+                    <option value="difinately">Difinately</option>
+                </select>
+                
                 <button type="submit">Submit</button>
             </form>
         </section>
 
-        <!-- Resources Section -->
         <section id="resources">
-            <h2>Teaching Resources</h2>
+            <h2>Resources</h2>
             <ul>
                 <li><a href="https://www.britishcouncil.org/teach" target="_blank">British Council</a></li>
                 <li><a href="https://www.cambridgeenglish.org/teaching-english" target="_blank">Cambridge English</a></li>
             </ul>
-            <img src="https://via.placeholder.com/200" alt="Sample Resource">
+            <img src="https://via.placeholder.com/300x200" alt="Sample Image">
         </section>
 
-        <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Me</h2>
-            <form>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
                 <button type="submit">Send</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 English Teacher's Page</p>
+        <p>&copy; 2024 Fun English Teacher Page. All rights reserved.</p>
     </footer>
 </body>
 </html>
